@@ -1,0 +1,12 @@
+apiVersion: v2
+name: person-service
+description: A helm chart for the basic person-service used as example
+home: https://github.com/ato18/openshift-repository-code
+type: application
+version: 0.0.1
+appVersion: “1.0.1”
+sources:
+    - https://github.com/ato18/openshift-repository-code
+maintainers:
+    - name: Emmanuel Cadet
+      email: emmanuel.cadet@capgemini.com
