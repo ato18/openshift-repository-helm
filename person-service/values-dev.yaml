@@ -1,5 +1,5 @@
 deployment:
-    image: quay.io/ato18/person-service
+    image: quay.io/emm_cadet/person-service
     version: v1.0.1
     replicas: 4
     includeHealthChecks: false
