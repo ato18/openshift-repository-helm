@@ -4,6 +4,7 @@ metadata:
   labels:
     app: person-service
   name: {{ .Release.Name }}-service
+  namespace: {{ .Values.namespace }}
 spec:
   ports:
   - name: 8080-tcp
