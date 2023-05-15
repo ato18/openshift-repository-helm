@@ -7,10 +7,10 @@ version: 0.0.1
 appVersion: “1.0.1”
 sources:
   - https://github.com/ato18/openshift-repository-code
-dependencies:
-  - name: postgresql
-    version: "12.5.1"
-    repository: oci://registry-1.docker.io/bitnamicharts
+#dependencies:
+#  - name: postgresql
+#    version: "12.5.1"
+#    repository: oci://registry-1.docker.io/bitnamicharts
 maintainers:
   - name: Emmanuel Cadet
     email: emmanuel.cadet@capgemini.com
