@@ -10,7 +10,7 @@ sources:
 dependencies:
   - name: postgresql
     version: "10.13.8"
-    repository: https://artifacthub.io/packages/helm/bitnami/postgresql
+    repository: oci://registry-1.docker.io/bitnamicharts/postgresql
 maintainers:
   - name: Emmanuel Cadet
     email: emmanuel.cadet@capgemini.com
