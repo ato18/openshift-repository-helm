@@ -6,7 +6,11 @@ type: application
 version: 0.0.1
 appVersion: “1.0.1”
 sources:
-    - https://github.com/ato18/openshift-repository-code
+  - https://github.com/ato18/openshift-repository-code
+dependencies:
+  - name: postgresql
+    version: "10.13.8"
+    repository: https://charts.bitnami.com/bitnami
 maintainers:
-    - name: Emmanuel Cadet
-      email: emmanuel.cadet@capgemini.com
+  - name: Emmanuel Cadet
+    email: emmanuel.cadet@capgemini.com
