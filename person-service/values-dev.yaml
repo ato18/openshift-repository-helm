@@ -8,5 +8,5 @@ postgresql:
     database: "person-service"
     password: "postgreuser"
     username: "postgrepassword"
-    service: "postgresql"
+    service: "person-service-postgresql"
 
