@@ -4,6 +4,7 @@ metadata:
   labels:
     app: person-service
   name: {{ .Release.Name }}-deployment
+  namespace: {{ .Values.namespace }}
 spec:
   progressDeadlineSeconds: 600
   replicas: {{ .Values.deployment.replicas | default 1 }}
