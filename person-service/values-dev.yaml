@@ -9,7 +9,7 @@ deployment:
 postgresql:
   auth:
     database: "person-service"
-    password: "postgreuser"
-    username: "postgrepassword"
+    password: "postgrepassword"
+    username: "postgreuser"
     service: "person-service-postgresql"
 
