@@ -1,7 +1,7 @@
 namespace: ecadet-dev-personservice
 deployment:
   image: quay.io/emm_cadet/person-service
-  version: v1.0.2
+  version: v1.0.3
   replicas: 4
   includeHealthChecks: false
 postgresql:

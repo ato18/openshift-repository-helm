@@ -4,7 +4,7 @@ description: A helm chart for the basic person-service used as example
 home: https://github.com/ato18/openshift-repository-code
 type: application
 version: 0.0.1
-appVersion: 1.0.2
+appVersion: 1.0.3
 sources:
   - https://github.com/ato18/openshift-repository-code
 #dependencies:
