@@ -10,4 +10,4 @@ postgresql:
     password: "postgrepasswd"
     username: "postgresuser"
     service: "person-service-postgresql"
-greeting: "Hello, this is version {{ .Values.deployment.version }}"
+greeting: "Hello, this is version v1.0.3"
